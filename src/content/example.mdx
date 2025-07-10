@@ -1,4 +1,73 @@
 export const metadata = {
-  title: 'Sample',
-  description: 'Sample',
+  title: 'Example Post: Using This MDX Blog Template',
+  description: 'A comprehensive guide and example demonstrating the features of this Next.js MDX blog template, including Markdown elements and custom components like StackBlitz embeds.',
 };
+
+# Welcome to the Example Post!
+
+This post demonstrates the various features and components available in this Next.js MDX Blog Template.
+
+## Markdown Elements
+
+Here are some examples of standard Markdown elements you can use:
+
+### Text Formatting
+
+You can write *italic*, **bold**, or `inline code`.
+
+### Lists
+
+**Unordered List:**
+- Item A
+- Item B
+  - Sub-item B1
+  - Sub-item B2
+- Item C
+
+**Ordered List:**
+1. First item
+2. Second item
+3. Third item
+
+### Blockquotes
+
+> This is a blockquote. It's useful for highlighting a section of text, perhaps a quote or an important note.
+
+### Code Blocks
+
+You can include code blocks for various languages:
+
+```javascript
+// This is a JavaScript code block
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+greet('World');
+```
+
+```python
+# This is a Python code block
+def add(a, b):
+  return a + b
+
+print(add(5, 3))
+```
+
+## Custom Components
+
+This template also supports custom components, like the StackBlitz embed.
+
+### StackBlitz Embed Example
+
+Here's an example of embedding a StackBlitz project. This one shows a simple React counter application.
+
+<StackBlitzEmbed
+  repo='react-ts-counter'
+  openFile='src/App.tsx'
+  height='500px'
+/>
+
+Feel free to explore the `src/mdx-components.tsx` file to see how these custom styles are applied or to add your own!
+
+That's a brief overview. Happy blogging!
